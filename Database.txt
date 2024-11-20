@@ -1,0 +1,34 @@
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY AUTO_INCREMENT,
+    ProductName VARCHAR(50),
+    ProductPrice INT,
+    ProductStock INT,
+    ProductExpD DATE
+);
+
+INSERT INTO Products (ProductName, ProductPrice, ProductStock, ProductExpD) VALUES
+('Lucky Me!', 20, 80, '2025-08-23'),
+('Piattos', 18, 70, '2026-06-02'),
+('Bingo', 9, 88, '2025-09-08'),
+('Cobra', 15, 78, '2026-03-05'),
+('Milo', 19, 66, '2025-07-05'),
+('Nescafe', 12, 75, '2025-03-06'),
+('Jack n Jill Chippy', 18, 68, '2026-03-12'),
+('Cloud 9', 9, 79, '2028-03-12'),
+('Hansel', 9, 90, '2027-09-09'),
+('Pocari', 46, 98, '2025-06-05'),
+('Mighty Bond', 12, 96, '2027-04-05'),
+('Glue', 8, 67, '2028-03-02'),
+('Yakult', 12, 76, '2025-05-06'),
+('Selecta Cornetto', 25, 76, '2025-01-05'),
+('Fudgee Bar', 11, 88, '2025-12-05'),
+('Tide Powder', 13, 65, '2025-05-06'),
+('Sunsilk', 9, 78, '2025-08-08'),
+('Safeguard Soap', 9, 56, '2025-12-03'),
+('Silver Swan Sauce', 10, 54, '2025-06-07'),
+('Magic Sarap', 12, 56, '2025-05-06'),
+('Great Taste White', 32, 43, '2025-12-12'),
+('C2 Iced Tea', 18, 45, '2025-12-09'),
+('V-Cut', 27, 76, '2025-09-09'),
+('Bear Brand Milk', 40, 56, '2025-09-09'),
+('Pepsi Softdrinks', 20, 87, '2026-05-06');
